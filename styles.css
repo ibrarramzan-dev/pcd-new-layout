@@ -1444,3 +1444,68 @@ button#popup-btn-0c0ba8dd3733 {
 }
 
 /* 8. My Styles */
+.page-container {
+  max-width: 1200px;
+}
+.fan-leaderboard-section {
+  background-image: url("./images/hitter-on-basketball.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.see-which-teams-generous-text {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: -8px;
+}
+.leaderboard-stats-donated {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+}
+.leader-item .leaderboard-stats div {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+}
+.leader-item .number {
+  border: solid 13px #e7e5e5 !important;
+}
+#sub-footer > .mk-grid {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .footer-wrapper > .mk-padding-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  .leaderboard-stats-donated {
+    position: absolute;
+    bottom: 9px;
+    left: 0;
+  }
+  .leader-item .leaderboard-stats div {
+    position: absolute;
+    bottom: 9px;
+    right: 0;
+  }
+}
+
+.mk-main-navigation ul li {
+  margin-left: 18px !important;
+}
+.mk-main-navigation ul li a {
+  font-size: 18px !important;
+}
+
+@media (min-width: 1141px) {
+  .mk-main-navigation {
+    width: 100%;
+    font-size: 42px !important;
+    padding-right: 140px !important;
+  }
+}
