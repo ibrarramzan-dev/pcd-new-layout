@@ -1,9 +1,9 @@
 /* 1. Critical Path CSS */
 body,
 html {
-  width: 100%;
+  max-width: 1200px;
   height: 100%;
-  margin: 0;
+  margin: auto !important;
   padding: 0;
 }
 .page-preloader {
@@ -1451,7 +1451,13 @@ button#popup-btn-0c0ba8dd3733 {
   background-image: url("./images/hitter-on-basketball.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-position: 0 0 0 -150px;
 }
+
+.mk-page-section-wrapper {
+  left: 0 !important;
+}
+
 .see-which-teams-generous-text {
   display: inline-block;
   font-size: 25px;
@@ -1508,4 +1514,19 @@ button#popup-btn-0c0ba8dd3733 {
     font-size: 42px !important;
     padding-right: 140px !important;
   }
+}
+
+.leaderboard-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px 0;
+  justify-content: space-between;
+}
+
+.leaderboard-card {
+  width: 267px;
+  height: 267px;
+  background-image: url(./images/leaderboard-item-bacground.png);
+  background-repeat: no-repeat;
 }
